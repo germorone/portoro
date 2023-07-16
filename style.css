@@ -1,0 +1,68 @@
+/* Colors from COLOR PICKER 
+rgba(158,0,0,255) - red
+rgba(255,255,255,255) - white
+rgba(61,61,61,255) - grey
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255,255,255,255);
+}
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    align-items: center;
+
+    background-color:rgba(158,0,0,255);
+    height: 29vh;
+
+}
+.borde{
+    border: solid rgb(255, 255, 255) 1px;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    padding: 0 5% 1% 5%;
+    text-decoration: none;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: solid  2px transparent;  /* permite que no se genere movimiento */
+}
+
+.logoSize{
+    width: 27%;
+}
+
+.page{
+    border-bottom: solid white 2px;
+}
+
+nav a:hover{
+    border-bottom: solid white 2px;
+}
+
+.section-ppal{
+    height: 71vh;
+    overflow: hidden; /* permite que no se me genere un pequeno scroll */
+}
+
+.section-ppal img{
+    width: 100%;
+    height: 100%;
+}
